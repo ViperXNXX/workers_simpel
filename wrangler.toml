@@ -1,0 +1,41 @@
+name = "cf-worker" #Nama worker huruf kecil semua
+main = "_worker.js"
+compatibility_date = "2025-11-05"
+workers_dev = false
+
+
+routes = [
+  { pattern = "domainkamu.com", custom_domain = true },
+  { pattern = "support.zoom.us.domainkamu.com", custom_domain = true },
+  { pattern = "collection.linefriends.com.domainkamu.com", custom_domain = true },
+  { pattern = "df.game.naver.com.domainkamu.com", custom_domain = true },
+  { pattern = "ava.game.naver.com.domainkamu.com", custom_domain = true },
+  { pattern = "api24-normal.tiktokv.com.domainkamu.com", custom_domain = true },
+  { pattern = "api24-normal-useast1a.tiktokv.com.domainkamu.com", custom_domain = true },
+  { pattern = "api24-normal-alisg.tiktokv.com.domainkamu.com", custom_domain = true },
+  { pattern = "www.instagram.com.domainkamu.com", custom_domain = true },
+  { pattern = "www.pubgmobile.com.domainkamu.com", custom_domain = true },
+  { pattern = "www.arenaofvalor.com.domainkamu.com", custom_domain = true },
+  { pattern = "www.freefiremobile.com.domainkamu.com", custom_domain = true },
+  { pattern = "dfsuporte.garena.com.domainkamu.com", custom_domain = true },
+  { pattern = "suporte.garena.com.domainkamu.com", custom_domain = true },
+  { pattern = "bcmsuporte.garena.com.domainkamu.com", custom_domain = true },
+  { pattern = "ffsuporte.garena.com.domainkamu.com", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.domainkamu.com", custom_domain = true },
+  { pattern = "investors.spotify.com.domainkamu.com", custom_domain = true },
+  { pattern = "partner.catchplay.com.domainkamu.com", custom_domain = true },
+  { pattern = "support-id.catchplay.com.domainkamu.com", custom_domain = true },
+  { pattern = "support-sg.catchplay.com.domainkamu.com", custom_domain = true },
+  { pattern = "support-tw.catchplay.com.domainkamu.com", custom_domain = true },
+  { pattern = "creativeservices.netflix.com.domainkamu.com", custom_domain = true },
+  { pattern = "help.viu.com.domainkamu.com", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.domainkamu.com", custom_domain = true },
+  { pattern = "cf.shopee.co.id.domainkamu.com", custom_domain = true },
+  { pattern = "cf.shopee.co.id.sea-sw.swiftserve.com.domainkamu.com", custom_domain = true },
+  { pattern = "web.whatsapp.com.domainkamu.com", custom_domain = true },
+  { pattern = "business.whatsapp.com.domainkamu.com", custom_domain = true },
+  { pattern = "listen.noice.id.domainkamu.com", custom_domain = true }
+  ]
+  
+[observability]
+enabled = false
